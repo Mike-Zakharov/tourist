@@ -20,19 +20,47 @@
     margin: 0 auto
     margin-top: 60px
 
-.search
+.promo__form
     display: flex
     justify-content: center
     
-.promo__select
+.input__wrapper
+    position: relative
     display: block
     width: 240px
     height: 60px
     border: 1px solid #E7E7E7
-    box-sizing: border-box
+    box-sizing: border-box  
+    background-color: #fff  
+.input__wrapper:first-child
+    border-radius: 10px 0px 0px 10px 
 
-#start
+.iput_field
+    border: none
+    width: 100%
+    height: 100%
+    padding-left: 20px
+    font-family: Inter
+    font-style: normal
+    font-weight: 600
+    font-size: 14px
+    line-height: 20px
+.iput_field_br      // доп класс для скругдения первого элемента.через first-child скругляются все
     border-radius: 10px 0px 0px 10px
+
+.input__arrow_down
+    position: absolute
+    right: 20px
+    top: 20px
+    height: 20px
+    width: 20px
+    cursor: pointer
+.input__arrow_down img
+    display: block
+    margin: 0 auto
+    transform: translateY(110%)   
+
+  
 
 .promo_btn
     border-radius: 0px 10px 10px 0px

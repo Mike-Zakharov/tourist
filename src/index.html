@@ -30,13 +30,31 @@
             <h3 class="subtitle promo_subtitle">Поиск активных туров по России</h3>
 
             <div class="promo__form">
-                <form action="" method="get" class="search">
-                    <select name="start" id="start" class="promo__select"></select>
-                    <select name="finish" id="finish" class="promo__select"></select>
-                    <select name="typeOfRest" id="typeOfRest" class="promo__select"></select>
-                    <select name="when" id="date" class="promo__select"></select>
-                    <button class="promo_btn">Поиск тура</button>
-                </form>
+                <div class="input__wrapper">
+                    <input name="start" id="start" class="iput_field iput_field_br" placeholder="Откуда"></input>
+                    <div class="input__arrow_down">
+                        <img src="icons/arrow_down.svg" alt="arrow_down">
+                    </div>
+                </div>
+                <div class="input__wrapper">
+                    <input name="finish" id="finish" class="iput_field" placeholder="Куда"></input>
+                    <div class="input__arrow_down">
+                        <img src="icons/arrow_down.svg" alt="arrow_down">
+                    </div>
+                </div>
+                <div class="input__wrapper">
+                    <input name="typeOfRest" id="typeOfRest" class="iput_field" placeholder="Вид отдыха"></input>
+                    <div class="input__arrow_down">
+                        <img src="icons/arrow_down.svg" alt="arrow_down">
+                    </div>
+                </div>
+                <div class="input__wrapper">
+                    <input name="when" id="date" class="iput_field" placeholder="Дата"></input>
+                    <div class="input__arrow_down">
+                        <img src="icons/arrow_down.svg" alt="arrow_down">
+                    </div>
+                </div>   
+                <button class="promo_btn">Поиск тура</button>
             </div>
         </div>
     </section>
